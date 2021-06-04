@@ -32,12 +32,14 @@ import GraphQlController from "./GraphQlController.js";
 import SampleController from "./SampleController.js";
 import GeoCodingController from "./geocoding/GeoCodingController.js";
 import FruitsController from "./fruits/FruitsController.js";
+import CarsController from "./cars/CarsController.js";
 
 AuhtController(app);
 GraphQlController(app);
 SampleController(app);
 GeoCodingController(app);
 FruitsController(app);
+CarsController(app);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
